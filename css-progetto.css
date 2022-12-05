@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.image-1{
+    background-image: url("nws_grbinfohero.jpg");
+    height: 500px;
+    background-size: cover;
+    
+}
+.div_title{
+
+    display: block;
+    background-color: black;
+}
+.oscuramento{
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100%;
+}
+.simbolo_xbox{
+    width: 43px;
+    height: 47px;
+    left: 18.17px;
+    top: 81.23px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("xbox.png");
+}
+.simbolo_sony{
+    width: 43px;
+    height: 47px;
+    left: 18.17px;
+    top: 81.23px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("simbolo_sony.png");
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+#tag_title{
+    padding-top: -5px;
+}
