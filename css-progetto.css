@@ -53,3 +53,9 @@ nav{
 #a{
     align-items: center;
 }
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
