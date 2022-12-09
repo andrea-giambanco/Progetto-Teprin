@@ -4,7 +4,7 @@ h1{
 }
 .image-1{
     background-image: url("nws_grbinfohero.jpg");
-    height: 500px;
+    height: 850px;
     background-size: cover;
     
 }
@@ -16,7 +16,7 @@ h1{
 }
 .image-2{
     background-image: url("Ghost-Recon-Breakpoint.jpg");
-    height: 500px;
+    height: 900px;
     background-size: cover;
 }
 .div_title{
@@ -36,7 +36,7 @@ h1{
     background-position: center;
     background-size: cover;
     background-image: url("xbox.png");
-    margin: -10%;
+    margin-left:100px;
     border: auto auto transparent;
     
 }
@@ -48,7 +48,7 @@ h1{
     background-position: center;
     background-size: cover;
     background-image: url("simbolo_sony.png");
-    
+    margin-right: 100px;
     
 }
 nav{
@@ -67,5 +67,16 @@ nav{
 #a{
     align-items: center;
 }
-
-
+.div-form{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: dashed  ;
+    border-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+footer{
+    background-color: black;
+}
+.input-form{
+    border-radius: 10px;
+}
