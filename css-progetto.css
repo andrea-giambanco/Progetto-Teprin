@@ -6,7 +6,7 @@ h1{
     background-image: url("nws_grbinfohero.jpg");
     height: 850px;
     background-size: cover;
-    
+   
 }
 @media screen and (max-width: 1px){
     html{
@@ -30,19 +30,20 @@ h1{
 }
 .simbolo_xbox{
     width: 64px;
-    height: 47px;
+    height: 64px;
     left: 18.17px;
     top: 81.23px;
     background-position: center;
     background-size: cover;
-    background-image: url("xbox.png");
+    background: url("xbox.png") no-repeat center;
     margin-left:100px;
-    border: auto auto transparent;
+    
+
     
 }
 .simbolo_sony{
-    width: 43px;
-    height: 47px;
+    width: 64px;
+    height: 64px;
     left: 50px;
     top: 81.23px;
     background-position: center;
@@ -63,20 +64,72 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin-left: 45%;
+    font-family: "Serif";
+    font-size: xx-large;
 }
 #a{
     align-items: center;
+    
 }
 .div-form{
-    background-color: rgba(255, 255, 255, 0.5);
-    border-style: dashed  ;
-    border-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    
     padding: 15px;
     border-radius: 15px;
 }
 footer{
-    background-color: black;
+    background: url("sfondo_form.jfif");
 }
 .input-form{
     border-radius: 10px;
+    width: 250px;
+    height: 50px;
 }
+#description{
+   
+    height: 200px;
+    width: 300px;
+}
+#p_description{
+    padding-bottom:-3px ;
+}
+.section_form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+input[type="submit"]:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: aquamarine;
+    
+}
+input[type="submit"]{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+}
+.div_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 550px;
+}
+.div_container_shop{
+
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.div-shop{
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    margin-top: 90px ;
+    margin-left: 500px;
+}
+.image-shop
