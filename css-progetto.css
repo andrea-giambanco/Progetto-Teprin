@@ -128,8 +128,37 @@ input[type="submit"]{
 .div-shop{
     height: 500px;
     width: 600px;
-    background-color: white;
+    background-color: rgba(255, 255, 255);
     margin-top: 90px ;
     margin-left: 500px;
 }
-.image-shop
+.image-shop{
+    background: url("ghost_ps4.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    margin-top: 50px ;
+    margin-left: 50px;
+    
+}
+.image-shop:hover{
+    background:url("ghost_xbox.png");
+    
+}
+.button-shop{
+    background-color: rgba(111, 106, 4, 0.4);
+   
+    
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-top: 300px;
+    margin-right: -50px;
+}
+.div_separazione{
+    background-color: black;
+    display: block;
+    height: 50px;
+}
