@@ -9,6 +9,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous">
     <link rel="stylesheet" href="css-progetto.css">
+    <link rel="stylesheet" href="Secular_One/SecularOne-Regular.ttf">
 
   </head>
 
@@ -22,15 +23,26 @@
               <div class="container-fluid ps-4 div_container">
                 <a class="navbar-brand" href="#" id="nav">
                   <div class="simbolo_sony d-inline-block align-text-top "></div>
-                  GHOST RECON BREAKPOINT
+                  <img src="TITLE.png" id="image_title">
                   <div class="simbolo_xbox d-inline-block align-text-top "></div>
                 </a>
               </div>
             </nav>
           </section>
 
+
           <section>
             <div class="div_container_shop">
+              <section>
+                <div id="recensione1">
+                    <div id="image_recensione"></div>
+                    <div id="image_star"></div>
+                    <div class="container_text_recensione">
+                        <p>Paracadute sulle spalle e let's go!!!</p>
+                    </div>
+                   
+                </div>
+              </section>
               <div class="div-shop">
                 <div class="container">
                   <div class="row">
@@ -39,17 +51,21 @@
                     </div>
                     <div class="col">
                       <section>
-                        <p id="p_shop">-Il seguito del pluripremiato Tom
-                          Clancy'S
-                          Ghost Recon Wildlands.</p>
-                        <p id="p_shop">-Un mondo aperto immenso e ricco di
-                          contenuti.</p>
-                        <p id="p_shop">-Lotta per sopravvivere: scalate
-                          vertiginose, infortuni e stanchezza sono le nuove
-                          sfide
-                          che dovrai affrontare.</p>
+                        <div id="container_p_shop">
+                          <p id="p_shop">IL SEGUITO DEL PLURIPREMIATO TOM
+                            CLANCY'S
+                            GHOST RECON WILDLANDS.</p>
+                          <p id="p_shop">UN MONDO APERTO IMMENSO E RICCO DI
+                            CONTENUTI.</p>
+                          <p id="p_shop">LOTTA PER SOPRAVVIVERE: SCALATE
+                            VERTIGINOSE, INFORTUNI E STANCHEZZA SONO LE NUOVE
+                            SFIDE
+                            CHE DOVRAI AFFRONTARE.</p>
+                        </div>
 
-                        <select name="Console" id="select_console" class="input-form">
+                        <br>
+                        <select name="Console" id="select_console"
+                          class="input-form">
                           <option value="PS4">PS4</option>
                           <option value="XBOX">XBOX</option>
                         </select>
@@ -57,13 +73,23 @@
 
 
 
-                      <input type="button" value="Acquista" class="button-shop" >
+                      <input type="button" value="Acquista" class="button-shop">
                     </div>
                   </div>
                 </div>
 
 
               </div>
+              <section>
+                <div id="recensione2">
+                    <div id="image_recensione2"></div>
+                    <div id="image_star"></div>
+                    <div class="container_text_recensione">
+                        <p>Paracadute sulle spalle e let's go!!!</p>
+                    </div>
+                   
+                </div>
+              </section>
             </div>
           </section>
 
@@ -111,34 +137,39 @@
           <section>
             <div class="row">
               <div class="col">
-                <p>Nome: </p>
                 <br>
+                <p id="p_description">Nome: </p>
+
                 <section class="section_form">
                   <input type="text" name="name" id="name"
-                     class="input-form" required>
+                    class="input-form" required>
                 </section>
-                <p>Cognome</p>
                 <br>
+                <p id="p_description">Cognome:</p>
+
                 <section class="section_form">
                   <input type="text" name="surname" id="surname"
-                     class="input-form"
+                    class="input-form"
                     required>
                 </section>
-                <p>Email: </p>
                 <br>
+                <p id="p_description">Email: </p>
+
                 <section class="section_form">
 
                   <input type="email" name="email" id="email"
-                     class="input-form"
+                    class="input-form"
                     required>
                 </section>
 
                 <br>
               </div>
               <div class="col">
+                <p id="p_description" style="margin-right: 160px;">Descrizione:
+                </p>
                 <section>
-                  <p id="p_description">Descrizione: </p>
-                  <input type="text" id="description" 
+
+                  <input type="text" id="description"
                     class="input-form" required>
                 </section>
 

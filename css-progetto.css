@@ -49,10 +49,7 @@ h1{
     margin-right: 100px;
     
 }
-nav{
-    background-color: rgba(255, 255, 255, 0.1);
-    
-}
+
 #tag_title{
     padding-top: -5px;
 }
@@ -69,9 +66,8 @@ nav{
     
 }
 .div-form{
-    background-color: rgba(255, 255, 255, 0.2);
-    
-    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+   
     border-radius: 15px;
 }
 footer{
@@ -83,18 +79,22 @@ footer{
     height: 50px;
 }
 #description{
-   
     height: 200px;
     width: 300px;
 }
 #p_description{
-    padding-bottom:-3px ;
     font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+#container_p_shop{
+    text-align: center;
+    border-radius: 10px;
 }
 #p_shop{
+    color: white;
     margin-top: 30px;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: small;
+    font-family: Secular_One;
+    font-size: 14px;
 }
 .section_form{
    
@@ -126,12 +126,12 @@ input[type="submit"]{
 .div_container_shop{
 
     display: block;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 .div-shop{
     height: 500px;
     width: 600px;
-    background-color: rgba(255, 255, 255);
+    background-color: transparent;
     margin-top: 90px ;
     margin-left: 470px;
 }
@@ -191,7 +191,8 @@ input[type="submit"]{
 }
 div p {
     margin-top:20px ;
-    margin-right: 50px;
+    margin-right: 70px;
+    margin-bottom: 0px;
 }
 .div_container_game_image{
     color: white;
@@ -202,49 +203,111 @@ div p {
   
 }
 
+.slide-wrapper {
+width: 3000px;
+animation: slide 18s infinite;
+}
+.image-container{
+float: left;
+height: 500px;
+width: 728px;
+}
+.image-container:nth-child(1) {
+background-image: url("1.jpg") ;
+background-position: center;
+background-size: cover;
 
-
-
-
-    .slide-wrapper {
-    width: 3000px;
-    animation: slide 18s infinite;
-    }
-    .image-container{
-   
-    float: left;
-    height: 500px;
-    width: 728px;
-    }
-    .image-container:nth-child(1) {
-    background-image: url("1.jpg") ;
-    background-position: center;
-    background-size: cover;
+}
+.image-container:nth-child(2) {
+background-image: url("2.png") ;
+background-position: center;
+background-size: cover;
+}
+.image-container:nth-child(3) {
+background-image: url("3.jpg") ;
+background-position: center;
+background-size: cover;
+}
+.image-container:nth-child(4) {
+background-image: url("4.png") ;
+background-position: center;
+background-size: cover;
+}
+@keyframes slide {
+20% {margin-left: 0px;}
+30% {margin-left: -728px;}
+50% {margin-left: -728px;}
+60% {margin-left: -1456px;}
+70% {margin-left: -1456px;}
+80% {margin-left: -2184px;}
+90% {margin-left: -2184px;}
+}
+#image_title{
     
-    }
-    .image-container:nth-child(2) {
-    background-image: url("2.png") ;
+    width: 300px;
+    height: 100px;
+}
+#recensione1{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;   
+    width: 300px;
+    height: 300px; 
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 20px ;
+}
+#recensione2{
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;   
+    width: 300px;
+    height: 300px; 
+    margin-top: -30%;
+    margin-left: 78%;
+    border-radius: 20px ;
+}
+.container_text_recensione{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(130, 166, 173, 0.2);
+    
+    
+}
+#image_star{
+    background-image: url("stelle.png");
+    position: absolute;
+    width: 100px;
+    height: 30px;
     background-position: center;
     background-size: cover;
-    }
-    .image-container:nth-child(3) {
-    background-image: url("3.jpg") ;
+    margin-top: 22px;
+    margin-left: 85px;
+}
+#image_recensione{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("ciccio.png");
     background-position: center;
     background-size: cover;
-    }
-    .image-container:nth-child(4) {
-    background-image: url("4.png") ;
+    border-radius: 30px ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#image_recensione2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("max.png");
     background-position: center;
     background-size: cover;
-    }
-    @keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    70% {margin-left: -1456px;}
-    80% {margin-left: -2184px;}
-    90% {margin-left: -2184px;}
-    }
-
+    border-radius: 30px ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
 
