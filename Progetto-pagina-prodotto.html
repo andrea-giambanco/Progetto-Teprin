@@ -1,111 +1,165 @@
-<html>
+<!DOCTYPE html>
+<html lang="it">
 
-<head>
-        <title>Release Game</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="css-progetto.css">
+  <head>
+    <title>Release Game</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="css-progetto.css">
 
-</head>
+  </head>
 
 
-<body>
-     <div class="image-1">
-
+  <body>
+    <div class="image-1">
+      <section>
         <div class="oscuramento">
+          <section>
             <nav class="navbar">
-                <div class="container-fluid ps-4 div_container">
-                  <a class="navbar-brand" href="#" id="nav">
-                        <div class="simbolo_sony d-inline-block align-text-top "></div>
-                        GHOST RECON BREAKPOINT
-                         <div class="simbolo_xbox d-inline-block align-text-top "></div>
-                       
-                  </a>
-                </div>
-              </nav>
-
-              <div class="div_container_shop">
-                 <div class="div-shop">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col">
-                          <div class="image-shop">
-                          </div>
-                        </div>
-                        <div class="col">
-                          <p>qui devo scrivere qualcosa sul gioco </p>
-
-                          <input type="button" value="Acquista" class="button-shop">
-                        </div>
-                      </div>
-                    </div>
-
-
-                 </div>
+              <div class="container-fluid ps-4 div_container">
+                <a class="navbar-brand" href="#" id="nav">
+                  <div class="simbolo_sony d-inline-block align-text-top "></div>
+                  GHOST RECON BREAKPOINT
+                  <div class="simbolo_xbox d-inline-block align-text-top "></div>
+                </a>
               </div>
-             
-        </div>
+            </nav>
+          </section>
 
-      
+          <section>
+            <div class="div_container_shop">
+              <div class="div-shop">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="image-shop"></div>
+                    </div>
+                    <div class="col">
+                      <section>
+                        <p id="p_shop">-Il seguito del pluripremiato Tom
+                          Clancy'S
+                          Ghost Recon Wildlands.</p>
+                        <p id="p_shop">-Un mondo aperto immenso e ricco di
+                          contenuti.</p>
+                        <p id="p_shop">-Lotta per sopravvivere: scalate
+                          vertiginose, infortuni e stanchezza sono le nuove
+                          sfide
+                          che dovrai affrontare.</p>
+
+                        <select name="Console" id="select_console" class="input-form">
+                          <option value="PS4">PS4</option>
+                          <option value="XBOX">XBOX</option>
+                        </select>
+                      </section>
+
+
+
+                      <input type="button" value="Acquista" class="button-shop" >
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </section>
+
+
+        </div>
+      </section>
+
+
+
     </div>
     <div class="div_separazione"></div>
     <div class="image-2">
-      
+      <div class="oscuramento">
+        <div class="div_spazio"></div>
+        <div class="div_container_shop">
+          <section>
+            <div class="div-immagini">
+
+
+              <div class="slide-wrapper">
+                <div class="image-container"></div>
+                <div class="image-container"></div>
+                <div class="image-container"></div>
+                <div class="image-container"></div>
+                <div class="image-container"></div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+      </div>
 
     </div>
-           
-        
-        
-    
-   
-    
-</body>
+
+  </body>
 
 
 
-<footer>
-  <div class="div_separazione"></div>
-  <form method="post" class="form-horizontal">
-    <div class="container text-center div-form">
-        <div class="row">
-          <div class="col">
-            <section class="section_form">
-              <label for="name">Nome: </label>
-              <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome" class="input-form" required>
-            </section>
-              <br>
-              <section class="section_form">
-                <label for="surname">Cognome: </label>
-                <input type="text" name="surname" id="surname" placeholder="Inserisci il tuo cognome"class="input-form" required>
-              </section>
-              
-              <br>
-              <section class="section_form">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="Inserisci la tua email"class="input-form" required>
-              </section>
-              
-              <br>
-          </div>
-          <div class="col">
-            <section>
-              <p id="p_description">Descrizione: </p>
-              <input type="text" id="description" placeholder="Descrizione" class="input-form"required>
-            </section>
-           
-            <br>
-            <input type="submit" value="INVIA">
-          </div>
+  <footer>
+    <section><div class="div_separazione"></div></section>
+    <section>
+      <form method="post" class="form-horizontal">
+        <div class="container text-center div-form">
+          <section>
+            <div class="row">
+              <div class="col">
+                <p>Nome: </p>
+                <br>
+                <section class="section_form">
+                  <input type="text" name="name" id="name"
+                     class="input-form" required>
+                </section>
+                <p>Cognome</p>
+                <br>
+                <section class="section_form">
+                  <input type="text" name="surname" id="surname"
+                     class="input-form"
+                    required>
+                </section>
+                <p>Email: </p>
+                <br>
+                <section class="section_form">
+
+                  <input type="email" name="email" id="email"
+                     class="input-form"
+                    required>
+                </section>
+
+                <br>
+              </div>
+              <div class="col">
+                <section>
+                  <p id="p_description">Descrizione: </p>
+                  <input type="text" id="description" 
+                    class="input-form" required>
+                </section>
+
+                <br>
+                <input type="submit" value="INVIA">
+              </div>
+            </div>
+          </section>
+
+
         </div>
-        
-      </div>
-    
-    
-    
-  </form>
 
 
- 
-</footer>
+
+      </form>
+    </section>
+
+
+
+
+  </footer>
 
 
 </html>

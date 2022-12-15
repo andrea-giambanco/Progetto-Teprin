@@ -8,16 +8,13 @@ h1{
     background-size: cover;
    
 }
-@media screen and (max-width: 1px){
-    html{
-        min-width:100%;
-        min-height: 100%;
-    }
-}
+
+
 .image-2{
     background-image: url("Ghost-Recon-Breakpoint.jpg");
-    height: 900px;
+    height: 850px;
     background-size: cover;
+    margin-top: -90px;
 }
 .div_title{
 
@@ -92,13 +89,19 @@ footer{
 }
 #p_description{
     padding-bottom:-3px ;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#p_shop{
+    margin-top: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: small;
 }
 .section_form{
-    
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-left: 110px;
 }
 input[type="submit"]:hover{
     background-color: rgba(255, 255, 255, 0.5);
@@ -130,19 +133,38 @@ input[type="submit"]{
     width: 600px;
     background-color: rgba(255, 255, 255);
     margin-top: 90px ;
-    margin-left: 500px;
+    margin-left: 470px;
+}
+.div-immagini{
+    
+    background-color: rgba(255, 255, 255);
+    margin-top: 90px ;
+    margin-left: 400px;
+
+    overflow: hidden;
+    height: 500px;
+    width: 728px;
+    
+
+}
+.div_spazio{
+    height: 50px;
+    display: block;
+    background-color: transparent;
+    
 }
 .image-shop{
     background: url("ghost_ps4.png");
     background-repeat: no-repeat;
-    height: 250px;
-    width: 250px;
+    height: 234px;
+    width: 219px;
     margin-top: 50px ;
     margin-left: 50px;
     
 }
 .image-shop:hover{
     background:url("ghost_xbox.png");
+    background-repeat: no-repeat;
     
 }
 .button-shop{
@@ -154,11 +176,75 @@ input[type="submit"]{
     width: 200px;
     height: 50px;
     border: none;
-    margin-top: 300px;
-    margin-right: -50px;
+    margin-top: 50px;
+    margin-left: 25px;
 }
+.button-shop:hover{
+    background-color: rgba(111, 106, 4, 0.8);
+}
+
 .div_separazione{
     background-color: black;
     display: block;
-    height: 50px;
+    height: 120px;
+   
 }
+div p {
+    margin-top:20px ;
+    margin-right: 50px;
+}
+.div_container_game_image{
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+  
+}
+
+
+
+
+
+    .slide-wrapper {
+    width: 3000px;
+    animation: slide 18s infinite;
+    }
+    .image-container{
+   
+    float: left;
+    height: 500px;
+    width: 728px;
+    }
+    .image-container:nth-child(1) {
+    background-image: url("1.jpg") ;
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .image-container:nth-child(2) {
+    background-image: url("2.png") ;
+    background-position: center;
+    background-size: cover;
+    }
+    .image-container:nth-child(3) {
+    background-image: url("3.jpg") ;
+    background-position: center;
+    background-size: cover;
+    }
+    .image-container:nth-child(4) {
+    background-image: url("4.png") ;
+    background-position: center;
+    background-size: cover;
+    }
+    @keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+    }
+
+
