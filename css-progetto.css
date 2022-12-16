@@ -1,14 +1,19 @@
-h1{
-    text-align: center;
-    color: rgba(255, 255, 255, 0.7);
+
+html{
+    height: 100%;
+    width: 100%;
 }
 .image-1{
     background-image: url("nws_grbinfohero.jpg");
     height: 850px;
     background-size: cover;
-   
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
-
+body{
+    width: auto;
+}
 
 .image-2{
     background-image: url("Ghost-Recon-Breakpoint.jpg");
@@ -16,11 +21,7 @@ h1{
     background-size: cover;
     margin-top: -90px;
 }
-.div_title{
 
-    display: block;
-    background-color: black;
-}
 .oscuramento{
     background-color: rgba(0, 0, 0, 0.493);
     height: 100%;
@@ -33,10 +34,7 @@ h1{
     background-position: center;
     background-size: cover;
     background: url("xbox.png") no-repeat center;
-    margin-left:100px;
-    
-
-    
+    margin-left:100px;    
 }
 .simbolo_sony{
     width: 64px;
@@ -46,10 +44,8 @@ h1{
     background-position: center;
     background-size: cover;
     background-image: url("simbolo_sony.png");
-    margin-right: 100px;
-    
+    margin-right: 100px;   
 }
-
 #tag_title{
     padding-top: -5px;
 }
@@ -58,25 +54,32 @@ h1{
     justify-content: space-between;
     align-items: center;
     margin-left: 45%;
-    font-family: "Serif";
-    font-size: xx-large;
 }
 #a{
     align-items: center;
-    
 }
 .div-form{
     background-color: rgba(255, 255, 255, 0.1);
-   
     border-radius: 15px;
+    width: 100%;
+    margin-top: 10%;
+   
 }
 footer{
     background: url("sfondo_form.jfif");
+    width: 100%;
+    padding-bottom: 5%;
+   
+}
+select{
+    border-radius: 10px;
+    width: 100%;
+    height: 140%;
 }
 .input-form{
     border-radius: 10px;
-    width: 250px;
-    height: 50px;
+    width: 80%;
+    height: 40px;
 }
 #description{
     height: 200px;
@@ -85,10 +88,12 @@ footer{
 #p_description{
     font-family: "Lucida Console", "Courier New", monospace;
     color: white;
+    margin-left: -22%;
 }
 #container_p_shop{
     text-align: center;
     border-radius: 10px;
+    margin-left: 10%;
 }
 #p_shop{
     color: white;
@@ -97,7 +102,6 @@ footer{
     font-size: 14px;
 }
 .section_form{
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,10 +116,10 @@ input[type="submit"]{
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border-radius: 10px;
-    width: 200px;
+    width: 40%;
     height: 50px;
     border: none;
-    margin-top: 30px;
+    margin: 25px;
 }
 .div_container{
     display: flex;
@@ -124,9 +128,10 @@ input[type="submit"]{
     margin-right: 550px;
 }
 .div_container_shop{
-
     display: block;
     background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    
 }
 .div-shop{
     height: 500px;
@@ -136,16 +141,14 @@ input[type="submit"]{
     margin-left: 470px;
 }
 .div-immagini{
-    
-    background-color: rgba(255, 255, 255);
-    margin-top: 90px ;
-    margin-left: 400px;
-
     overflow: hidden;
-    height: 500px;
-    width: 728px;
-    
-
+    background-color: rgba(255, 255, 255);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    min-width: 512px;
+    max-width: 728px;
+    padding: 0;
 }
 .div_spazio{
     height: 50px;
@@ -156,11 +159,11 @@ input[type="submit"]{
 .image-shop{
     background: url("ghost_ps4.png");
     background-repeat: no-repeat;
-    height: 234px;
-    width: 219px;
-    margin-top: 50px ;
-    margin-left: 50px;
-    
+    height: 100%;
+    width: 100%;
+    margin: 10%;
+    margin-left: 20%;
+    padding: auto;    
 }
 .image-shop:hover{
     background:url("ghost_xbox.png");
@@ -169,25 +172,21 @@ input[type="submit"]{
 }
 .button-shop{
     background-color: rgba(111, 106, 4, 0.4);
-   
-    
     color: white;
     border-radius: 10px;
-    width: 200px;
-    height: 50px;
+    width: 100%;
+    height: 140%;
     border: none;
-    margin-top: 50px;
-    margin-left: 25px;
 }
 .button-shop:hover{
     background-color: rgba(111, 106, 4, 0.8);
 }
-
+select{
+}
 .div_separazione{
     background-color: black;
     display: block;
-    height: 120px;
-   
+    height: 150px;
 }
 div p {
     margin-top:20px ;
@@ -208,9 +207,11 @@ width: 3000px;
 animation: slide 18s infinite;
 }
 .image-container{
-float: left;
-height: 500px;
-width: 728px;
+    float: left;
+    height: 500px;
+    width: 100%;
+    min-width: 512px;
+    max-width: 728px;;
 }
 .image-container:nth-child(1) {
 background-image: url("1.jpg") ;
@@ -235,44 +236,32 @@ background-size: cover;
 }
 @keyframes slide {
 20% {margin-left: 0px;}
-30% {margin-left: -728px;}
-50% {margin-left: -728px;}
-60% {margin-left: -1456px;}
-70% {margin-left: -1456px;}
-80% {margin-left: -2184px;}
-90% {margin-left: -2184px;}
+30% {margin-left: -100%;}
+50% {margin-left: -200%;}
+60% {margin-left: -300%;}
+70% {margin-left: -400%;}
+80% {margin-left: -500%;}
+90% {margin-right: -600%;}
 }
 #image_title{
-    
     width: 300px;
     height: 100px;
 }
-#recensione1{
+#recensione1, #recensione2{
     background-color: rgba(255, 255, 255, 0.7);
-    position: absolute;   
-    width: 300px;
-    height: 300px; 
-    margin-top: 60px;
-    margin-left: 100px;
-    border-radius: 20px ;
-}
-#recensione2{
-    background-color: rgba(255, 255, 255, 0.7);
-    position: absolute;   
-    width: 300px;
-    height: 300px; 
-    margin-top: -30%;
-    margin-left: 78%;
-    border-radius: 20px ;
+    position: relative;   
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
 }
 .container_text_recensione{
-    position: absolute;
-    margin-top: 70px;
+    position: relative;
+    margin-top: -55px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 250px;
-    height: 200px;
+    width: 90%; 
+    height: 70%;
     border-radius: 10px;
     background-color: rgba(130, 166, 173, 0.2);
     
@@ -280,34 +269,61 @@ background-size: cover;
 }
 #image_star{
     background-image: url("stelle.png");
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 30px;
     background-position: center;
     background-size: cover;
     margin-top: 22px;
     margin-left: 85px;
+    bottom: 70px;
 }
-#image_recensione{
-    position: absolute;
+#image_recensione, #image_recensione2{
+    position: relative;
     width: 50px;
     height: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.url1{
     background-image: url("ciccio.png");
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px ;
-    margin-top: 15px;
-    margin-left: 20px;
 }
-#image_recensione2{
-    position: absolute;
-    width: 50px;
-    height: 50px;
+.url2{
     background-image: url("max.png");
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px ;
-    margin-top: 15px;
-    margin-left: 20px;
 }
+@media screen and (min-width: 576px){
+    .col-sm{
+        min-width: 50%;
+        min-height: 100%;
+    }
+    .col-sm div{
+        margin-top: 5%;
+    }
+    #nav{
+        margin: auto;
+        width: 100%;
+    }
+    .navbar{
+        display: block;
+    }
+    #div_container_shop{
+        display: flex;
+        width: auto;
+    }
+    #recensione1, #recensione2{
+        float: left;
+        margin: 10px;
+        margin-top: 12%;
+        margin-left: 5%;
+        height: auto;
+    }
+    .image-shop{
+        width: auto;
+        height: 100%;
+        margin-bottom: 5%;
+    }
 
+}
